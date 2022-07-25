@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    font-family: rale300;
+    color: white;
+}
+/*Que cargue una fuente de manera local*/
+@font-face{/*Raleway Light (300)*/
+    font-family: rale300; /*un alias al nombre de la fuente*/
+    src:url(./assets/fonts/raleway/Raleway-Light.ttf)/*Ubicación de la Fuente*/
+}
+/*Que cargue una fuente de manera local*/
+@font-face{/*Raleway Light (300)*/
+    font-family: ralemedium; /*un alias al nombre de la fuente*/
+    src:url(./assets/fonts/raleway/Raleway-Medium.ttf)/*Ubicación de la Fuente*/
+}
+
+.header {
+    background-color: black;
+    color: white;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .header h1{
+    font-family: ralemedium;
+    font-size: 50px;
+
+}
+
+.iguana {
+    background-image: url(./assets/img/bg-header.jpg);
+    background-size: cover;
+}
+
+.padre{
+    background-color: #000000;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.frase{
+    width: 480px;
+    height: 200px;
+    margin-right:  106px;
+    text-align: justify;
+    
+}
+
+
+/* .image{
+    display: flex; */
+    /* height: 230px;
+    justify-content: center;
+    align-items: center; */
+    /* background-color: yellow; */
+    /* width: 480px;
+    height: 230px;
+    border: 1px solid #000; */
+/* 
+} */
+
+.box{
+    
+    width: 480px;
+    height: 230px;
+    background-image: url(./assets/img/iguana-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.titulo{
+    background-color: #1e1a13;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 5rem;
+}
+
+.titulo h1{
+    background-color: #1e1a13;
+    font-family: ralemedium;
+    font-size: 40px;
+
+
+    
+}
+
+.iconos{
+    background-color: #1e1a13;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 3rem;
+   
+}
+
+.iconos h3 {
+    font-size: 25px;
+
+}
+
+.imagenes {
+    background-color: black; 
+    display: flex;
+    justify-content: center;  
+}
+
+.imagenes img{
+    width: 316px;
+    height: 202px;
+    padding-left: 1rem;
+    margin: 73px 0 73px 0;
+
+}
+
+footer{
+   background-color: #1e1a13;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   height: 102px;
+   
+
+}
+
